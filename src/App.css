@@ -1,0 +1,61 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  flex-direction: column;
+}
+
+.logo{
+  width: 20%;
+  height: 20%;
+}
+
+.bor{
+  font-size: 50px;
+  font-weight: 600;
+}
+.debitContainer{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.DebitItem{
+  color:black;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.CreditContainer{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.CreditItem{
+  color:black;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.linkContainer{
+  display: flex;
+}
+
+.linkItem{
+  display: block;
+  margin: 5px;
+  font-size: 20px;
+  color: black;
+  
+}
+
+.marginHelper{
+  margin-top: 100px;
+}
+
